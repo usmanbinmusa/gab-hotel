@@ -1,4 +1,4 @@
-import Standard from "/img/standard.jpg";
+import Standard from "/img/Standard.jpg";
 import royal from "/img/royal.jpg";
 import big from "/img/big.jpg";
 import double from "/img/double.jpg";
