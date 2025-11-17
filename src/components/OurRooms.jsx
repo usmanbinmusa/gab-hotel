@@ -1,4 +1,4 @@
-import standard from "/img/standard.jpg";
+import Standard from "/img/standard.jpg";
 import royal from "/img/royal.jpg";
 import big from "/img/big.jpg";
 import double from "/img/double.jpg";
@@ -17,7 +17,7 @@ function OurRooms(){
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
               <div className="room-item shadow rounded overflow-hidden">
                 <div className="position-relative">
-                  <img className="img-fluid" src={standard} alt=""/>
+                  <img className="img-fluid" src={Standard} alt=""/>
                     <small className="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">N22,500</small>
                 </div>
                 <div className="p-4 mt-2">
