@@ -18,7 +18,7 @@ function OurRooms(){
               <div className="room-item shadow rounded overflow-hidden">
                 <div className="position-relative">
                   <img className="img-fluid" src={standard} alt=""/>
-                    <small className="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">N20,000</small>
+                    <small className="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">N22,500</small>
                 </div>
                 <div className="p-4 mt-2">
                   <div className="d-flex justify-content-between mb-3">
