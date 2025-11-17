@@ -1,3 +1,6 @@
+import c1 from "/img/c1.jpeg"
+import c2 from "/img/c2.jpg";
+
 function Caroulsel() {
   return (
     // Carousel Start 
@@ -6,7 +9,7 @@ function Caroulsel() {
         <div className="carousel-inner">
 
           <div className="carousel-item active">
-            <img className="w-100" src="img/c2.jpg" alt="Image" />
+          <img className="w-100" src={c2} alt="Image" />
             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
               <div className="p-3" style={{ maxWidth: '700px' }}>
                 <h6 className="section-title text-white text-uppercase mb-3 animated slideInDown">Welcome to</h6>
@@ -18,7 +21,7 @@ function Caroulsel() {
           </div>
 
           <div className="carousel-item">
-              <img className="w-100" src="img/c1.jpeg" alt="Image"/>
+              <img className="w-100" src={c1} alt="Image"/>
                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                   <div className="p-3" style={{maxWidth: '700px'}}>
                     <h6 className="section-title text-white text-uppercase mb-3 animated slideInDown">Welcome to</h6>
