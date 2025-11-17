@@ -1,6 +1,12 @@
 import CountUp from 'react-countup';
 import CountUp1 from 'react-countup';
 import CountUp2 from 'react-countup';
+
+import A1 from "/img/A1.jpg";
+import A2 from "/img/A2.jpg";
+import A3 from "/img/A3.jpg";
+import A4 from "/img/A4.jpg";
+
 function About(){
   return (
       //About Start 
@@ -8,15 +14,7 @@ function About(){
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6">
-              <h6 className="section-title text-start text-primary text-uppercase">About Us</h6>
-              <h1 className="mb-4">Welcome to <span className="text-primary text-uppercase">Gab Hotel</span></h1>
-              <p style={{textAlign: 'justify'}} className="mb-4 ">At Gab Hotel, we redefine hospitality through excellent service, 
-                                  elegant rooms, and a serene environment. Our mission is to provide 
-                                  every guest with a memorable stay through world-class comfort, 
-                                  personalized attention, and exceptional service.
-                                  We take pride in our reputation for reliability, cleanliness, and 
-                                  customer satisfaction. Whether you are a solo traveler, a family, or a 
-                                  corporate guest, we ensure a seamless and enjoyable experience.</p>
+
               <div className="row g-3 pb-4">
                 <div className="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
                   <div className="border rounded p-1">
@@ -52,21 +50,33 @@ function About(){
                   </div>
                 </div>
               </div>
+              
+              <h6 className="section-title text-start text-primary text-uppercase">About Us</h6>
+              <h1 className="mb-4">Welcome to <span className="text-primary text-uppercase">Gab Hotel</span></h1>
+              <p style={{textAlign: 'justify'}} className="mb-4 ">At Gab Hotel, we redefine hospitality through excellent service, 
+                                  elegant rooms, and a serene environment. Our mission is to provide 
+                                  every guest with a memorable stay through world-class comfort, 
+                                  personalized attention, and exceptional service.
+                                  We take pride in our reputation for reliability, cleanliness, and 
+                                  customer satisfaction. Whether you are a solo traveler, a family, or a 
+                                  corporate guest, we ensure a seamless and enjoyable experience.</p>
+              
+              
               <a className="btn btn-primary py-3 px-5 mt-2" href="">Explore More</a>
             </div>
             <div className="col-lg-6">
               <div className="row g-3">
                 <div className="col-6 text-end">
-                  <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="img/A1.jpg" style={{marginTop:'25%'}} />
+                  <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src={A1} style={{marginTop:'25%'}} />
                 </div>
                 <div className="col-6 text-start">
-                  <img className="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="img/A2.jpg"/>
+                  <img className="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src={A2}/>
                 </div>
                 <div className="col-6 text-end">
-                  <img className="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="img/A3.jpg"/>
+                  <img className="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src={A3}/>
                 </div>
                 <div className="col-6 text-start">
-                  <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/A4.jpg"/>
+                  <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src={A4}/>
                 </div>
               </div>
             </div>

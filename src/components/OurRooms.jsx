@@ -1,3 +1,8 @@
+import standard from "/img/standard.jpg";
+import royal from "/img/royal.jpg";
+import big from "/img/big.jpg";
+import double from "/img/double.jpg";
+
 function OurRooms(){
   return (
         
@@ -12,7 +17,7 @@ function OurRooms(){
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
               <div className="room-item shadow rounded overflow-hidden">
                 <div className="position-relative">
-                  <img className="img-fluid" src="img/Standard.jpg" alt=""/>
+                  <img className="img-fluid" src={standard} alt=""/>
                     <small className="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">N20,000</small>
                 </div>
                 <div className="p-4 mt-2">
@@ -32,7 +37,7 @@ function OurRooms(){
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
               <div className="room-item shadow rounded overflow-hidden">
                 <div className="position-relative">
-                  <img className="img-fluid" src="img/S-SD.jpg" alt=""/>
+                  <img className="img-fluid" src={big} alt=""/>
                     <small className="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">N23,000</small>
                 </div>
 
@@ -52,7 +57,7 @@ function OurRooms(){
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
               <div className="room-item shadow rounded overflow-hidden">
                 <div className="position-relative">
-                  <img className="img-fluid" src="img/S-BigDouble.jpg" alt=""/>
+                  <img className="img-fluid" src={double} alt=""/>
                     <small className="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">N24,000</small>
                 </div>
 
@@ -76,7 +81,7 @@ function OurRooms(){
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
               <div className="room-item shadow rounded overflow-hidden">
                 <div className="position-relative">
-                  <img className="img-fluid" src="img/S-Royal Suit.jpg" alt=""/>
+                  <img className="img-fluid" src={royal} alt=""/>
                     <small className="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">N25,000</small>
                 </div>
 
