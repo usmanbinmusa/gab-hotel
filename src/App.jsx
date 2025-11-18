@@ -14,6 +14,7 @@ import AboutPage from './pages/AboutPage'
 import ServicesPage from './pages/ServicesPage'
 import Roomspage from './pages/Roomspage'
 import ContactPage from './pages/ContactPage'
+import BookingPage from './pages/BookingPage'
 // import './App.css'
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
          <Route path='services' element={<ServicesPage/>} />
          <Route path='rooms' element={<Roomspage/>} />
          <Route path='contact' element={<ContactPage/>} />
+         <Route path='booking' element={<BookingPage/>} />
         </Routes>
       {/* Back to Top */}
       <a href="#" className="btn btn-lg btn-primary btn-lg-square back-to-top"><i className="bi bi-arrow-up"></i></a>
